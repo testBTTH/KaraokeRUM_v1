@@ -243,6 +243,26 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DangXuat60 {
+            get {
+                object obj = ResourceManager.GetObject("DangXuat60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DMK60 {
+            get {
+                object obj = ResourceManager.GetObject("DMK60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap door__1_ {
             get {
                 object obj = ResourceManager.GetObject("door (1)", resourceCulture);
@@ -276,6 +296,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap folder_home {
             get {
                 object obj = ResourceManager.GetObject("folder_home", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GDTN60 {
+            get {
+                object obj = ResourceManager.GetObject("GDTN60", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,6 +353,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap GioiThieu60 {
+            get {
+                object obj = ResourceManager.GetObject("GioiThieu60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kara {
             get {
                 object obj = ResourceManager.GetObject("kara", resourceCulture);
@@ -353,6 +393,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Phong60 {
+            get {
+                object obj = ResourceManager.GetObject("Phong60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap profle {
             get {
                 object obj = ResourceManager.GetObject("profle", resourceCulture);
@@ -363,9 +413,79 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap QLKH {
+            get {
+                object obj = ResourceManager.GetObject("QLKH", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap QLKH60 {
+            get {
+                object obj = ResourceManager.GetObject("QLKH60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap QLMH60 {
+            get {
+                object obj = ResourceManager.GetObject("QLMH60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap QLNV60 {
+            get {
+                object obj = ResourceManager.GetObject("QLNV60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap QLP60 {
+            get {
+                object obj = ResourceManager.GetObject("QLP60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap QLTTB60 {
+            get {
+                object obj = ResourceManager.GetObject("QLTTB60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Thay_the_hinh_dai_dien_tai_khoan_nguoi_dung_mac {
             get {
                 object obj = ResourceManager.GetObject("Thay-the-hinh-dai-dien-tai-khoan-nguoi-dung-mac", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ThongKe60 {
+            get {
+                object obj = ResourceManager.GetObject("ThongKe60", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

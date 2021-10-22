@@ -30,7 +30,6 @@ namespace WindowsFormsApp1
         private void InitializeComponent()
         {
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.cboDonVi = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -46,7 +45,6 @@ namespace WindowsFormsApp1
             this.btnTaiLai = new System.Windows.Forms.Button();
             this.txtID = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.btnTim = new System.Windows.Forms.Button();
             this.radTen = new System.Windows.Forms.RadioButton();
@@ -54,7 +52,6 @@ namespace WindowsFormsApp1
             this.radSoPhong = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lwvThietBi = new System.Windows.Forms.ListView();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
             this.cboLoaiPhong = new System.Windows.Forms.ComboBox();
@@ -68,28 +65,14 @@ namespace WindowsFormsApp1
             this.btnXoaTP = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.btnTaiLaiTP = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.lwvThietBiTrongPhong = new System.Windows.Forms.ListView();
-            this.panel3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.txtID.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel3
-            // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.groupBox2);
-            this.panel3.Location = new System.Drawing.Point(8, 170);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(550, 291);
-            this.panel3.TabIndex = 46;
             // 
             // groupBox2
             // 
@@ -107,11 +90,11 @@ namespace WindowsFormsApp1
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.btnTaiLai);
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(3, 2);
+            this.groupBox2.Location = new System.Drawing.Point(13, 167);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(529, 283);
+            this.groupBox2.Size = new System.Drawing.Size(545, 299);
             this.groupBox2.TabIndex = 24;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin trang thiết bị";
@@ -122,7 +105,7 @@ namespace WindowsFormsApp1
             this.cboDonVi.FormattingEnabled = true;
             this.cboDonVi.Location = new System.Drawing.Point(166, 143);
             this.cboDonVi.Name = "cboDonVi";
-            this.cboDonVi.Size = new System.Drawing.Size(292, 31);
+            this.cboDonVi.Size = new System.Drawing.Size(357, 31);
             this.cboDonVi.TabIndex = 33;
             // 
             // label8
@@ -141,7 +124,7 @@ namespace WindowsFormsApp1
             this.txtDonGia.Location = new System.Drawing.Point(166, 182);
             this.txtDonGia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDonGia.Name = "txtDonGia";
-            this.txtDonGia.Size = new System.Drawing.Size(292, 30);
+            this.txtDonGia.Size = new System.Drawing.Size(357, 30);
             this.txtDonGia.TabIndex = 1;
             // 
             // txtSoLuongTon
@@ -150,7 +133,7 @@ namespace WindowsFormsApp1
             this.txtSoLuongTon.Location = new System.Drawing.Point(166, 101);
             this.txtSoLuongTon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSoLuongTon.Name = "txtSoLuongTon";
-            this.txtSoLuongTon.Size = new System.Drawing.Size(292, 30);
+            this.txtSoLuongTon.Size = new System.Drawing.Size(357, 30);
             this.txtSoLuongTon.TabIndex = 1;
             // 
             // btnThem
@@ -161,10 +144,11 @@ namespace WindowsFormsApp1
             this.btnThem.Location = new System.Drawing.Point(0, 231);
             this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(107, 48);
+            this.btnThem.Size = new System.Drawing.Size(107, 45);
             this.btnThem.TabIndex = 31;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnSua
             // 
@@ -174,10 +158,11 @@ namespace WindowsFormsApp1
             this.btnSua.Location = new System.Drawing.Point(138, 231);
             this.btnSua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(107, 48);
+            this.btnSua.Size = new System.Drawing.Size(107, 45);
             this.btnSua.TabIndex = 30;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = false;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // label5
             // 
@@ -195,7 +180,7 @@ namespace WindowsFormsApp1
             this.txtTen.Location = new System.Drawing.Point(166, 58);
             this.txtTen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTen.Name = "txtTen";
-            this.txtTen.Size = new System.Drawing.Size(292, 30);
+            this.txtTen.Size = new System.Drawing.Size(357, 30);
             this.txtTen.TabIndex = 1;
             // 
             // label2
@@ -216,10 +201,11 @@ namespace WindowsFormsApp1
             this.btnXoa.Location = new System.Drawing.Point(278, 231);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(107, 48);
+            this.btnXoa.Size = new System.Drawing.Size(107, 45);
             this.btnXoa.TabIndex = 29;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = false;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // label1
             // 
@@ -239,10 +225,11 @@ namespace WindowsFormsApp1
             this.btnTaiLai.Location = new System.Drawing.Point(416, 231);
             this.btnTaiLai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTaiLai.Name = "btnTaiLai";
-            this.btnTaiLai.Size = new System.Drawing.Size(107, 48);
+            this.btnTaiLai.Size = new System.Drawing.Size(107, 45);
             this.btnTaiLai.TabIndex = 28;
             this.btnTaiLai.Text = "Tải lại";
             this.btnTaiLai.UseVisualStyleBackColor = false;
+            this.btnTaiLai.Click += new System.EventHandler(this.btnTaiLai_Click);
             // 
             // txtID
             // 
@@ -269,27 +256,13 @@ namespace WindowsFormsApp1
             this.label11.Text = "Thiết bị";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.txtTimKiem);
-            this.panel2.Controls.Add(this.btnTim);
-            this.panel2.Controls.Add(this.radTen);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.radSoPhong);
-            this.panel2.Location = new System.Drawing.Point(10, 71);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(548, 93);
-            this.panel2.TabIndex = 45;
-            // 
             // txtTimKiem
             // 
             this.txtTimKiem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimKiem.Location = new System.Drawing.Point(159, 11);
+            this.txtTimKiem.Location = new System.Drawing.Point(171, 75);
             this.txtTimKiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(227, 30);
+            this.txtTimKiem.Size = new System.Drawing.Size(264, 30);
             this.txtTimKiem.TabIndex = 26;
             // 
             // btnTim
@@ -297,18 +270,19 @@ namespace WindowsFormsApp1
             this.btnTim.BackColor = System.Drawing.Color.Teal;
             this.btnTim.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTim.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnTim.Location = new System.Drawing.Point(392, 5);
+            this.btnTim.Location = new System.Drawing.Point(441, 69);
             this.btnTim.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTim.Name = "btnTim";
-            this.btnTim.Size = new System.Drawing.Size(117, 43);
+            this.btnTim.Size = new System.Drawing.Size(117, 45);
             this.btnTim.TabIndex = 25;
             this.btnTim.Text = "Tìm";
             this.btnTim.UseVisualStyleBackColor = false;
+            this.btnTim.Click += new System.EventHandler(this.btnTim_Click);
             // 
             // radTen
             // 
             this.radTen.AutoSize = true;
-            this.radTen.Location = new System.Drawing.Point(42, 54);
+            this.radTen.Location = new System.Drawing.Point(165, 118);
             this.radTen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radTen.Name = "radTen";
             this.radTen.Size = new System.Drawing.Size(137, 21);
@@ -319,8 +293,8 @@ namespace WindowsFormsApp1
             // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(2, 2);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(22, 75);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(161, 33);
             this.label3.TabIndex = 27;
@@ -329,7 +303,7 @@ namespace WindowsFormsApp1
             // radSoPhong
             // 
             this.radSoPhong.AutoSize = true;
-            this.radSoPhong.Location = new System.Drawing.Point(245, 54);
+            this.radSoPhong.Location = new System.Drawing.Point(345, 118);
             this.radSoPhong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radSoPhong.Name = "radSoPhong";
             this.radSoPhong.Size = new System.Drawing.Size(90, 21);
@@ -340,35 +314,30 @@ namespace WindowsFormsApp1
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.BackColor = System.Drawing.Color.White;
             this.groupBox1.Controls.Add(this.lwvThietBi);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(-1, 5);
+            this.groupBox1.Location = new System.Drawing.Point(590, 54);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(979, 375);
+            this.groupBox1.Size = new System.Drawing.Size(979, 412);
             this.groupBox1.TabIndex = 23;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh sách trang thiết bị ";
             // 
             // lwvThietBi
             // 
+            this.lwvThietBi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lwvThietBi.HideSelection = false;
-            this.lwvThietBi.Location = new System.Drawing.Point(26, 51);
+            this.lwvThietBi.Location = new System.Drawing.Point(26, 43);
             this.lwvThietBi.Name = "lwvThietBi";
-            this.lwvThietBi.Size = new System.Drawing.Size(947, 319);
+            this.lwvThietBi.Size = new System.Drawing.Size(934, 346);
             this.lwvThietBi.TabIndex = 0;
             this.lwvThietBi.UseCompatibleStateImageBehavior = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Location = new System.Drawing.Point(575, 71);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(980, 390);
-            this.panel1.TabIndex = 44;
             // 
             // groupBox3
             // 
@@ -386,11 +355,11 @@ namespace WindowsFormsApp1
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.btnTaiLaiTP);
             this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(12, 466);
+            this.groupBox3.Location = new System.Drawing.Point(13, 507);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox3.Size = new System.Drawing.Size(546, 281);
+            this.groupBox3.Size = new System.Drawing.Size(546, 294);
             this.groupBox3.TabIndex = 47;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Thông tin trang thiết bị trong phòng";
@@ -411,7 +380,7 @@ namespace WindowsFormsApp1
             this.cboLoaiPhong.FormattingEnabled = true;
             this.cboLoaiPhong.Location = new System.Drawing.Point(167, 69);
             this.cboLoaiPhong.Name = "cboLoaiPhong";
-            this.cboLoaiPhong.Size = new System.Drawing.Size(292, 31);
+            this.cboLoaiPhong.Size = new System.Drawing.Size(357, 31);
             this.cboLoaiPhong.TabIndex = 36;
             // 
             // cboSoPhong
@@ -420,7 +389,7 @@ namespace WindowsFormsApp1
             this.cboSoPhong.FormattingEnabled = true;
             this.cboSoPhong.Location = new System.Drawing.Point(167, 106);
             this.cboSoPhong.Name = "cboSoPhong";
-            this.cboSoPhong.Size = new System.Drawing.Size(292, 31);
+            this.cboSoPhong.Size = new System.Drawing.Size(357, 31);
             this.cboSoPhong.TabIndex = 35;
             // 
             // cboTenTTB
@@ -429,7 +398,7 @@ namespace WindowsFormsApp1
             this.cboTenTTB.FormattingEnabled = true;
             this.cboTenTTB.Location = new System.Drawing.Point(167, 142);
             this.cboTenTTB.Name = "cboTenTTB";
-            this.cboTenTTB.Size = new System.Drawing.Size(292, 31);
+            this.cboTenTTB.Size = new System.Drawing.Size(357, 31);
             this.cboTenTTB.TabIndex = 34;
             // 
             // txtSoLuongTP
@@ -438,7 +407,7 @@ namespace WindowsFormsApp1
             this.txtSoLuongTP.Location = new System.Drawing.Point(167, 178);
             this.txtSoLuongTP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSoLuongTP.Name = "txtSoLuongTP";
-            this.txtSoLuongTP.Size = new System.Drawing.Size(292, 30);
+            this.txtSoLuongTP.Size = new System.Drawing.Size(357, 30);
             this.txtSoLuongTP.TabIndex = 1;
             // 
             // btnThemTP
@@ -449,10 +418,11 @@ namespace WindowsFormsApp1
             this.btnThemTP.Location = new System.Drawing.Point(1, 229);
             this.btnThemTP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThemTP.Name = "btnThemTP";
-            this.btnThemTP.Size = new System.Drawing.Size(107, 48);
+            this.btnThemTP.Size = new System.Drawing.Size(107, 45);
             this.btnThemTP.TabIndex = 31;
             this.btnThemTP.Text = "Thêm";
             this.btnThemTP.UseVisualStyleBackColor = false;
+            this.btnThemTP.Click += new System.EventHandler(this.btnThemTP_Click);
             // 
             // btnSuaTP
             // 
@@ -462,10 +432,11 @@ namespace WindowsFormsApp1
             this.btnSuaTP.Location = new System.Drawing.Point(139, 229);
             this.btnSuaTP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSuaTP.Name = "btnSuaTP";
-            this.btnSuaTP.Size = new System.Drawing.Size(107, 48);
+            this.btnSuaTP.Size = new System.Drawing.Size(107, 45);
             this.btnSuaTP.TabIndex = 30;
             this.btnSuaTP.Text = "Sửa";
             this.btnSuaTP.UseVisualStyleBackColor = false;
+            this.btnSuaTP.Click += new System.EventHandler(this.btnSuaTP_Click);
             // 
             // label4
             // 
@@ -495,10 +466,11 @@ namespace WindowsFormsApp1
             this.btnXoaTP.Location = new System.Drawing.Point(279, 229);
             this.btnXoaTP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXoaTP.Name = "btnXoaTP";
-            this.btnXoaTP.Size = new System.Drawing.Size(107, 48);
+            this.btnXoaTP.Size = new System.Drawing.Size(107, 45);
             this.btnXoaTP.TabIndex = 29;
             this.btnXoaTP.Text = "Xóa";
             this.btnXoaTP.UseVisualStyleBackColor = false;
+            this.btnXoaTP.Click += new System.EventHandler(this.btnXoaTP_Click);
             // 
             // label7
             // 
@@ -518,40 +490,36 @@ namespace WindowsFormsApp1
             this.btnTaiLaiTP.Location = new System.Drawing.Point(417, 229);
             this.btnTaiLaiTP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTaiLaiTP.Name = "btnTaiLaiTP";
-            this.btnTaiLaiTP.Size = new System.Drawing.Size(107, 48);
+            this.btnTaiLaiTP.Size = new System.Drawing.Size(107, 45);
             this.btnTaiLaiTP.TabIndex = 28;
             this.btnTaiLaiTP.Text = "Tải lại";
             this.btnTaiLaiTP.UseVisualStyleBackColor = false;
-            // 
-            // panel4
-            // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel4.Controls.Add(this.groupBox4);
-            this.panel4.Location = new System.Drawing.Point(576, 484);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(980, 259);
-            this.panel4.TabIndex = 48;
+            this.btnTaiLaiTP.Click += new System.EventHandler(this.btnTaiLaiTP_Click);
             // 
             // groupBox4
             // 
+            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox4.BackColor = System.Drawing.Color.White;
             this.groupBox4.Controls.Add(this.lwvThietBiTrongPhong);
             this.groupBox4.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(-1, 5);
+            this.groupBox4.Location = new System.Drawing.Point(590, 507);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox4.Size = new System.Drawing.Size(979, 248);
+            this.groupBox4.Size = new System.Drawing.Size(979, 294);
             this.groupBox4.TabIndex = 23;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Danh sách trang thiết bị trong phòng";
             // 
             // lwvThietBiTrongPhong
             // 
+            this.lwvThietBiTrongPhong.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lwvThietBiTrongPhong.HideSelection = false;
             this.lwvThietBiTrongPhong.Location = new System.Drawing.Point(26, 51);
             this.lwvThietBiTrongPhong.Name = "lwvThietBiTrongPhong";
-            this.lwvThietBiTrongPhong.Size = new System.Drawing.Size(947, 188);
+            this.lwvThietBiTrongPhong.Size = new System.Drawing.Size(934, 223);
             this.lwvThietBiTrongPhong.TabIndex = 0;
             this.lwvThietBiTrongPhong.UseCompatibleStateImageBehavior = false;
             // 
@@ -560,38 +528,37 @@ namespace WindowsFormsApp1
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1595, 771);
-            this.Controls.Add(this.panel4);
+            this.ClientSize = new System.Drawing.Size(1595, 840);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.txtTimKiem);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.btnTim);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.radTen);
+            this.Controls.Add(this.radSoPhong);
             this.Controls.Add(this.txtID);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmQuanLyThietBi";
             this.Text = "Quản lý thiết bị";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmQuanLyThietBi_Load);
-            this.panel3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.txtID.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            this.panel4.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox txtDonGia;
         private System.Windows.Forms.TextBox txtSoLuongTon;
@@ -605,14 +572,12 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button btnTaiLai;
         private System.Windows.Forms.Panel txtID;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox txtTimKiem;
         private System.Windows.Forms.Button btnTim;
         private System.Windows.Forms.RadioButton radTen;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RadioButton radSoPhong;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ListView lwvThietBi;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox txtSoLuongTP;
@@ -623,7 +588,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button btnXoaTP;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnTaiLaiTP;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.ListView lwvThietBiTrongPhong;
         private System.Windows.Forms.ComboBox cboDonVi;

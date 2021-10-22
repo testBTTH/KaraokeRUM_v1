@@ -47,7 +47,7 @@ namespace WindowsFormsApp1
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtGioNhanPhong = new System.Windows.Forms.TextBox();
+            this.txtGioDatPhong = new System.Windows.Forms.TextBox();
             this.radMoPhong = new System.Windows.Forms.RadioButton();
             this.txtSoDienThoai = new System.Windows.Forms.TextBox();
             this.txtTenPhong = new System.Windows.Forms.TextBox();
@@ -94,7 +94,7 @@ namespace WindowsFormsApp1
             this.lvwDanhSachDP.HideSelection = false;
             this.lvwDanhSachDP.Location = new System.Drawing.Point(19, 48);
             this.lvwDanhSachDP.Name = "lvwDanhSachDP";
-            this.lvwDanhSachDP.Size = new System.Drawing.Size(747, 781);
+            this.lvwDanhSachDP.Size = new System.Drawing.Size(801, 734);
             this.lvwDanhSachDP.TabIndex = 0;
             this.lvwDanhSachDP.UseCompatibleStateImageBehavior = false;
             // 
@@ -264,7 +264,7 @@ namespace WindowsFormsApp1
             this.groupBOx.ForeColor = System.Drawing.Color.Black;
             this.groupBOx.Location = new System.Drawing.Point(774, 53);
             this.groupBOx.Name = "groupBOx";
-            this.groupBOx.Size = new System.Drawing.Size(842, 847);
+            this.groupBOx.Size = new System.Drawing.Size(842, 798);
             this.groupBOx.TabIndex = 24;
             this.groupBOx.TabStop = false;
             this.groupBOx.Text = "Danh sách đặt phòng";
@@ -297,7 +297,7 @@ namespace WindowsFormsApp1
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.White;
-            this.groupBox1.Controls.Add(this.txtGioNhanPhong);
+            this.groupBox1.Controls.Add(this.txtGioDatPhong);
             this.groupBox1.Controls.Add(this.radMoPhong);
             this.groupBox1.Controls.Add(this.txtSoDienThoai);
             this.groupBox1.Controls.Add(this.txtTenPhong);
@@ -313,18 +313,18 @@ namespace WindowsFormsApp1
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(47, 523);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(687, 374);
+            this.groupBox1.Size = new System.Drawing.Size(687, 328);
             this.groupBox1.TabIndex = 22;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin phòng";
             // 
-            // txtGioNhanPhong
+            // txtGioDatPhong
             // 
-            this.txtGioNhanPhong.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGioNhanPhong.Location = new System.Drawing.Point(240, 336);
-            this.txtGioNhanPhong.Name = "txtGioNhanPhong";
-            this.txtGioNhanPhong.Size = new System.Drawing.Size(404, 30);
-            this.txtGioNhanPhong.TabIndex = 17;
+            this.txtGioDatPhong.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGioDatPhong.Location = new System.Drawing.Point(235, 273);
+            this.txtGioDatPhong.Name = "txtGioDatPhong";
+            this.txtGioDatPhong.Size = new System.Drawing.Size(404, 30);
+            this.txtGioDatPhong.TabIndex = 17;
             // 
             // radMoPhong
             // 
@@ -332,7 +332,7 @@ namespace WindowsFormsApp1
             this.radMoPhong.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radMoPhong.Location = new System.Drawing.Point(32, 33);
             this.radMoPhong.Name = "radMoPhong";
-            this.radMoPhong.Size = new System.Drawing.Size(165, 39);
+            this.radMoPhong.Size = new System.Drawing.Size(132, 31);
             this.radMoPhong.TabIndex = 26;
             this.radMoPhong.TabStop = true;
             this.radMoPhong.Text = "Mở phòng";
@@ -342,7 +342,7 @@ namespace WindowsFormsApp1
             // txtSoDienThoai
             // 
             this.txtSoDienThoai.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoDienThoai.Location = new System.Drawing.Point(239, 141);
+            this.txtSoDienThoai.Location = new System.Drawing.Point(235, 124);
             this.txtSoDienThoai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSoDienThoai.Name = "txtSoDienThoai";
             this.txtSoDienThoai.Size = new System.Drawing.Size(404, 30);
@@ -352,7 +352,7 @@ namespace WindowsFormsApp1
             // txtTenPhong
             // 
             this.txtTenPhong.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenPhong.Location = new System.Drawing.Point(240, 188);
+            this.txtTenPhong.Location = new System.Drawing.Point(235, 162);
             this.txtTenPhong.Name = "txtTenPhong";
             this.txtTenPhong.Size = new System.Drawing.Size(404, 30);
             this.txtTenPhong.TabIndex = 16;
@@ -370,7 +370,7 @@ namespace WindowsFormsApp1
             // label20
             // 
             this.label20.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(28, 193);
+            this.label20.Location = new System.Drawing.Point(28, 162);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(207, 25);
             this.label20.TabIndex = 13;
@@ -379,7 +379,7 @@ namespace WindowsFormsApp1
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(26, 144);
+            this.label8.Location = new System.Drawing.Point(28, 124);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(207, 22);
             this.label8.TabIndex = 0;
@@ -397,17 +397,17 @@ namespace WindowsFormsApp1
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(28, 337);
+            this.label3.Location = new System.Drawing.Point(28, 273);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(201, 29);
             this.label3.TabIndex = 10;
-            this.label3.Text = "Giờ nhận phòng:";
+            this.label3.Text = "Giờ đặt phòng:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label14
             // 
             this.label14.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(28, 237);
+            this.label14.Location = new System.Drawing.Point(28, 197);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(201, 31);
             this.label14.TabIndex = 11;
@@ -420,17 +420,17 @@ namespace WindowsFormsApp1
             this.dTimeNgayNhan.CustomFormat = "dd/MM/yyyy";
             this.dTimeNgayNhan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dTimeNgayNhan.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dTimeNgayNhan.Location = new System.Drawing.Point(242, 289);
+            this.dTimeNgayNhan.Location = new System.Drawing.Point(235, 232);
             this.dTimeNgayNhan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dTimeNgayNhan.Name = "dTimeNgayNhan";
-            this.dTimeNgayNhan.Size = new System.Drawing.Size(235, 30);
+            this.dTimeNgayNhan.Size = new System.Drawing.Size(404, 30);
             this.dTimeNgayNhan.TabIndex = 9;
             this.dTimeNgayNhan.Value = new System.DateTime(2021, 5, 21, 0, 0, 0, 0);
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(28, 291);
+            this.label2.Location = new System.Drawing.Point(28, 234);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(201, 30);
             this.label2.TabIndex = 12;
@@ -443,10 +443,10 @@ namespace WindowsFormsApp1
             this.dTimeDatPhong.CustomFormat = "dd/MM/yyyy";
             this.dTimeDatPhong.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dTimeDatPhong.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dTimeDatPhong.Location = new System.Drawing.Point(240, 235);
+            this.dTimeDatPhong.Location = new System.Drawing.Point(235, 198);
             this.dTimeDatPhong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dTimeDatPhong.Name = "dTimeDatPhong";
-            this.dTimeDatPhong.Size = new System.Drawing.Size(233, 30);
+            this.dTimeDatPhong.Size = new System.Drawing.Size(403, 30);
             this.dTimeDatPhong.TabIndex = 8;
             this.dTimeDatPhong.Value = new System.DateTime(2021, 5, 12, 0, 0, 0, 0);
             // 
@@ -768,7 +768,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button btnTimPhong;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox txtGioNhanPhong;
+        private System.Windows.Forms.TextBox txtGioDatPhong;
         private System.Windows.Forms.RadioButton radTatCa;
         private System.Windows.Forms.RadioButton radHienTai;
         private System.Windows.Forms.Button button11;

@@ -21,5 +21,50 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void btnTaiLai_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSua_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThemTP_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSuaTP_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnXoaTP_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTaiLaiTP_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTim_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

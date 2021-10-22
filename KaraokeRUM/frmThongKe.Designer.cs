@@ -35,21 +35,23 @@ namespace WindowsFormsApp1
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.label11 = new System.Windows.Forms.Label();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lvwDanhSach = new System.Windows.Forms.ListView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnTKDoanhThu = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnTKMatHang = new System.Windows.Forms.Button();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
-            this.radMatHang = new System.Windows.Forms.RadioButton();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.cboThang = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cboNam = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -74,24 +76,6 @@ namespace WindowsFormsApp1
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(453, 419);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(342, 39);
-            this.textBox1.TabIndex = 77;
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(48, 419);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(251, 42);
-            this.label1.TabIndex = 76;
-            this.label1.Text = "Tổng doanh thu";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.lvwDanhSach);
@@ -114,49 +98,44 @@ namespace WindowsFormsApp1
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.cboNam);
+            this.groupBox2.Controls.Add(this.cboThang);
+            this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.btnTKDoanhThu);
-            this.groupBox2.Controls.Add(this.dateTimePicker1);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.radioButton1);
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(30, 477);
+            this.groupBox2.Location = new System.Drawing.Point(30, 423);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(345, 161);
+            this.groupBox2.Size = new System.Drawing.Size(345, 215);
             this.groupBox2.TabIndex = 83;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Doanh thu";
+            this.groupBox2.Text = "Lựa chọn";
             // 
             // btnTKDoanhThu
             // 
             this.btnTKDoanhThu.BackColor = System.Drawing.Color.Teal;
             this.btnTKDoanhThu.ForeColor = System.Drawing.Color.White;
-            this.btnTKDoanhThu.Location = new System.Drawing.Point(91, 105);
+            this.btnTKDoanhThu.Location = new System.Drawing.Point(108, 169);
             this.btnTKDoanhThu.Name = "btnTKDoanhThu";
-            this.btnTKDoanhThu.Size = new System.Drawing.Size(124, 40);
+            this.btnTKDoanhThu.Size = new System.Drawing.Size(195, 40);
             this.btnTKDoanhThu.TabIndex = 3;
             this.btnTKDoanhThu.Text = "Thống kê";
             this.btnTKDoanhThu.UseVisualStyleBackColor = false;
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(91, 69);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 30);
-            this.dateTimePicker1.TabIndex = 2;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 75);
+            this.label2.Location = new System.Drawing.Point(32, 75);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 22);
+            this.label2.Size = new System.Drawing.Size(64, 22);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Tháng";
+            this.label2.Text = "Tháng:";
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(91, 39);
+            this.radioButton1.Location = new System.Drawing.Point(36, 29);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(101, 26);
             this.radioButton1.TabIndex = 0;
@@ -166,55 +145,28 @@ namespace WindowsFormsApp1
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.btnTKMatHang);
-            this.groupBox3.Controls.Add(this.dateTimePicker3);
+            this.groupBox3.Controls.Add(this.textBox3);
+            this.groupBox3.Controls.Add(this.label5);
+            this.groupBox3.Controls.Add(this.textBox2);
+            this.groupBox3.Controls.Add(this.label4);
+            this.groupBox3.Controls.Add(this.textBox1);
             this.groupBox3.Controls.Add(this.label3);
-            this.groupBox3.Controls.Add(this.radMatHang);
             this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(450, 477);
+            this.groupBox3.Location = new System.Drawing.Point(450, 423);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(345, 161);
+            this.groupBox3.Size = new System.Drawing.Size(345, 215);
             this.groupBox3.TabIndex = 84;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Mặt hàng";
-            // 
-            // btnTKMatHang
-            // 
-            this.btnTKMatHang.BackColor = System.Drawing.Color.Teal;
-            this.btnTKMatHang.ForeColor = System.Drawing.Color.White;
-            this.btnTKMatHang.Location = new System.Drawing.Point(122, 105);
-            this.btnTKMatHang.Name = "btnTKMatHang";
-            this.btnTKMatHang.Size = new System.Drawing.Size(124, 40);
-            this.btnTKMatHang.TabIndex = 4;
-            this.btnTKMatHang.Text = "Thống kê";
-            this.btnTKMatHang.UseVisualStyleBackColor = false;
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(122, 69);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(200, 30);
-            this.dateTimePicker3.TabIndex = 3;
+            this.groupBox3.Text = "Thông tin";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(49, 75);
+            this.label3.Location = new System.Drawing.Point(16, 74);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 22);
+            this.label3.Size = new System.Drawing.Size(128, 22);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Tháng";
-            // 
-            // radMatHang
-            // 
-            this.radMatHang.AutoSize = true;
-            this.radMatHang.Location = new System.Drawing.Point(122, 39);
-            this.radMatHang.Name = "radMatHang";
-            this.radMatHang.Size = new System.Drawing.Size(101, 26);
-            this.radMatHang.TabIndex = 1;
-            this.radMatHang.TabStop = true;
-            this.radMatHang.Text = "Hôm nay";
-            this.radMatHang.UseVisualStyleBackColor = true;
+            this.label3.Text = "Số khách hàng:";
             // 
             // chart1
             // 
@@ -234,6 +186,70 @@ namespace WindowsFormsApp1
             this.chart1.TabIndex = 86;
             this.chart1.Text = "chart1";
             // 
+            // cboThang
+            // 
+            this.cboThang.FormattingEnabled = true;
+            this.cboThang.Location = new System.Drawing.Point(108, 72);
+            this.cboThang.Name = "cboThang";
+            this.cboThang.Size = new System.Drawing.Size(195, 30);
+            this.cboThang.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(32, 118);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 22);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Năm:";
+            // 
+            // cboNam
+            // 
+            this.cboNam.FormattingEnabled = true;
+            this.cboNam.Location = new System.Drawing.Point(108, 115);
+            this.cboNam.Name = "cboNam";
+            this.cboNam.Size = new System.Drawing.Size(195, 30);
+            this.cboNam.TabIndex = 4;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(152, 71);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(167, 30);
+            this.textBox1.TabIndex = 5;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(16, 154);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(136, 22);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Tổng doanh thu:";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(152, 151);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(167, 30);
+            this.textBox2.TabIndex = 5;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(16, 112);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(111, 22);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Số mặt hàng:";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(152, 109);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(167, 30);
+            this.textBox3.TabIndex = 5;
+            // 
             // frmThongKe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -245,8 +261,6 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmThongKe";
             this.Text = "Form9";
@@ -258,7 +272,6 @@ namespace WindowsFormsApp1
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -266,20 +279,22 @@ namespace WindowsFormsApp1
 
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ErrorProvider errorProvider1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ListView lvwDanhSach;
-        private System.Windows.Forms.Button btnTKMatHang;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RadioButton radMatHang;
         private System.Windows.Forms.Button btnTKDoanhThu;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox cboNam;
+        private System.Windows.Forms.ComboBox cboThang;
+        private System.Windows.Forms.Label label1;
     }
 }

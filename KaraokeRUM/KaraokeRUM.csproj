@@ -318,5 +318,41 @@
   <ItemGroup>
     <None Include="Resources\2472824 %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QLKH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThongKe60.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GDTN60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QLKH60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QLNV60.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DMK60.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DangXuat60.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GioiThieu60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phong60.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QLP60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QLTTB60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QLMH60.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

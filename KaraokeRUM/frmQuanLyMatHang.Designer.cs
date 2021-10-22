@@ -31,8 +31,6 @@ namespace WindowsFormsApp1
         {
             this.components = new System.ComponentModel.Container();
             this.radLoaiMH = new System.Windows.Forms.RadioButton();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtGia = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -52,15 +50,11 @@ namespace WindowsFormsApp1
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.btnTim = new System.Windows.Forms.Button();
             this.radTenMH = new System.Windows.Forms.RadioButton();
-            this.panel6 = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.lvwService = new System.Windows.Forms.ListView();
             this.label11 = new System.Windows.Forms.Label();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.tableLayoutPanel1.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -68,7 +62,7 @@ namespace WindowsFormsApp1
             // radLoaiMH
             // 
             this.radLoaiMH.AutoSize = true;
-            this.radLoaiMH.Location = new System.Drawing.Point(349, 133);
+            this.radLoaiMH.Location = new System.Drawing.Point(421, 179);
             this.radLoaiMH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radLoaiMH.Name = "radLoaiMH";
             this.radLoaiMH.Size = new System.Drawing.Size(119, 21);
@@ -77,45 +71,10 @@ namespace WindowsFormsApp1
             this.radLoaiMH.Text = "Loại mặt hàng";
             this.radLoaiMH.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.InsetDouble;
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 42F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 58F));
-            this.tableLayoutPanel1.Controls.Add(this.panel4, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel6, 1, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(18, 129);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 612F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1651, 615);
-            this.tableLayoutPanel1.TabIndex = 76;
-            // 
-            // panel4
-            // 
-            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel4.Controls.Add(this.groupBox1);
-            this.panel4.Controls.Add(this.radLoaiMH);
-            this.panel4.Controls.Add(this.label1);
-            this.panel4.Controls.Add(this.txtTimKiem);
-            this.panel4.Controls.Add(this.btnTim);
-            this.panel4.Controls.Add(this.radTenMH);
-            this.panel4.Location = new System.Drawing.Point(6, 6);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(683, 603);
-            this.panel4.TabIndex = 60;
-            // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.groupBox1.BackColor = System.Drawing.Color.White;
             this.groupBox1.Controls.Add(this.txtGia);
             this.groupBox1.Controls.Add(this.label6);
@@ -132,11 +91,11 @@ namespace WindowsFormsApp1
             this.groupBox1.Controls.Add(this.btnThem);
             this.groupBox1.Controls.Add(this.btnSua);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(3, 174);
+            this.groupBox1.Location = new System.Drawing.Point(56, 272);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(673, 423);
+            this.groupBox1.Size = new System.Drawing.Size(642, 447);
             this.groupBox1.TabIndex = 48;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin mặt hàng";
@@ -144,17 +103,17 @@ namespace WindowsFormsApp1
             // txtGia
             // 
             this.txtGia.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGia.Location = new System.Drawing.Point(190, 261);
+            this.txtGia.Location = new System.Drawing.Point(192, 261);
             this.txtGia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtGia.Name = "txtGia";
-            this.txtGia.Size = new System.Drawing.Size(313, 30);
+            this.txtGia.Size = new System.Drawing.Size(406, 30);
             this.txtGia.TabIndex = 49;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(24, 264);
+            this.label6.Location = new System.Drawing.Point(40, 260);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(45, 22);
             this.label6.TabIndex = 48;
@@ -164,17 +123,17 @@ namespace WindowsFormsApp1
             // 
             this.cboDonVi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.cboDonVi.FormattingEnabled = true;
-            this.cboDonVi.Location = new System.Drawing.Point(190, 209);
+            this.cboDonVi.Location = new System.Drawing.Point(192, 209);
             this.cboDonVi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cboDonVi.Name = "cboDonVi";
-            this.cboDonVi.Size = new System.Drawing.Size(313, 31);
+            this.cboDonVi.Size = new System.Drawing.Size(406, 31);
             this.cboDonVi.TabIndex = 47;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(24, 218);
+            this.label5.Location = new System.Drawing.Point(40, 214);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(76, 22);
             this.label5.TabIndex = 46;
@@ -183,17 +142,17 @@ namespace WindowsFormsApp1
             // txtSoLuongTon
             // 
             this.txtSoLuongTon.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoLuongTon.Location = new System.Drawing.Point(190, 158);
+            this.txtSoLuongTon.Location = new System.Drawing.Point(192, 158);
             this.txtSoLuongTon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSoLuongTon.Name = "txtSoLuongTon";
-            this.txtSoLuongTon.Size = new System.Drawing.Size(313, 30);
+            this.txtSoLuongTon.Size = new System.Drawing.Size(406, 30);
             this.txtSoLuongTon.TabIndex = 45;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(24, 161);
+            this.label2.Location = new System.Drawing.Point(40, 157);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(122, 22);
             this.label2.TabIndex = 44;
@@ -204,10 +163,10 @@ namespace WindowsFormsApp1
             this.btnView.BackColor = System.Drawing.Color.Teal;
             this.btnView.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnView.ForeColor = System.Drawing.Color.White;
-            this.btnView.Location = new System.Drawing.Point(465, 355);
+            this.btnView.Location = new System.Drawing.Point(490, 335);
             this.btnView.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnView.Name = "btnView";
-            this.btnView.Size = new System.Drawing.Size(136, 46);
+            this.btnView.Size = new System.Drawing.Size(110, 45);
             this.btnView.TabIndex = 43;
             this.btnView.Text = "Tải lại";
             this.btnView.UseVisualStyleBackColor = false;
@@ -216,26 +175,26 @@ namespace WindowsFormsApp1
             // 
             this.cboLMH.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.cboLMH.FormattingEnabled = true;
-            this.cboLMH.Location = new System.Drawing.Point(190, 105);
+            this.cboLMH.Location = new System.Drawing.Point(192, 105);
             this.cboLMH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cboLMH.Name = "cboLMH";
-            this.cboLMH.Size = new System.Drawing.Size(313, 31);
+            this.cboLMH.Size = new System.Drawing.Size(406, 31);
             this.cboLMH.TabIndex = 42;
             // 
             // txtTenMH
             // 
             this.txtTenMH.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenMH.Location = new System.Drawing.Point(192, 56);
+            this.txtTenMH.Location = new System.Drawing.Point(194, 56);
             this.txtTenMH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTenMH.Name = "txtTenMH";
-            this.txtTenMH.Size = new System.Drawing.Size(313, 30);
+            this.txtTenMH.Size = new System.Drawing.Size(406, 30);
             this.txtTenMH.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(24, 109);
+            this.label3.Location = new System.Drawing.Point(40, 105);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(131, 22);
             this.label3.TabIndex = 0;
@@ -245,7 +204,7 @@ namespace WindowsFormsApp1
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(24, 59);
+            this.label4.Location = new System.Drawing.Point(40, 55);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 22);
             this.label4.TabIndex = 0;
@@ -256,10 +215,10 @@ namespace WindowsFormsApp1
             this.btnXoa.BackColor = System.Drawing.Color.Teal;
             this.btnXoa.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.White;
-            this.btnXoa.Location = new System.Drawing.Point(320, 355);
+            this.btnXoa.Location = new System.Drawing.Point(346, 335);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(120, 46);
+            this.btnXoa.Size = new System.Drawing.Size(110, 45);
             this.btnXoa.TabIndex = 39;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = false;
@@ -269,10 +228,10 @@ namespace WindowsFormsApp1
             this.btnThem.BackColor = System.Drawing.Color.Teal;
             this.btnThem.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.Color.White;
-            this.btnThem.Location = new System.Drawing.Point(17, 355);
+            this.btnThem.Location = new System.Drawing.Point(44, 335);
             this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(120, 46);
+            this.btnThem.Size = new System.Drawing.Size(110, 45);
             this.btnThem.TabIndex = 41;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
@@ -282,10 +241,10 @@ namespace WindowsFormsApp1
             this.btnSua.BackColor = System.Drawing.Color.Teal;
             this.btnSua.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.ForeColor = System.Drawing.Color.White;
-            this.btnSua.Location = new System.Drawing.Point(162, 355);
+            this.btnSua.Location = new System.Drawing.Point(192, 335);
             this.btnSua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(120, 46);
+            this.btnSua.Size = new System.Drawing.Size(110, 45);
             this.btnSua.TabIndex = 40;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = false;
@@ -293,7 +252,7 @@ namespace WindowsFormsApp1
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 70);
+            this.label1.Location = new System.Drawing.Point(50, 116);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(148, 33);
             this.label1.TabIndex = 72;
@@ -301,10 +260,11 @@ namespace WindowsFormsApp1
             // 
             // txtTimKiem
             // 
-            this.txtTimKiem.Location = new System.Drawing.Point(165, 75);
+            this.txtTimKiem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTimKiem.Location = new System.Drawing.Point(203, 121);
             this.txtTimKiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(303, 22);
+            this.txtTimKiem.Size = new System.Drawing.Size(337, 30);
             this.txtTimKiem.TabIndex = 71;
             // 
             // btnTim
@@ -312,10 +272,10 @@ namespace WindowsFormsApp1
             this.btnTim.BackColor = System.Drawing.Color.Teal;
             this.btnTim.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTim.ForeColor = System.Drawing.Color.White;
-            this.btnTim.Location = new System.Drawing.Point(474, 70);
+            this.btnTim.Location = new System.Drawing.Point(546, 116);
             this.btnTim.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTim.Name = "btnTim";
-            this.btnTim.Size = new System.Drawing.Size(120, 44);
+            this.btnTim.Size = new System.Drawing.Size(133, 44);
             this.btnTim.TabIndex = 70;
             this.btnTim.Text = "Tìm";
             this.btnTim.UseVisualStyleBackColor = false;
@@ -323,7 +283,7 @@ namespace WindowsFormsApp1
             // radTenMH
             // 
             this.radTenMH.AutoSize = true;
-            this.radTenMH.Location = new System.Drawing.Point(165, 133);
+            this.radTenMH.Location = new System.Drawing.Point(203, 179);
             this.radTenMH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radTenMH.Name = "radTenMH";
             this.radTenMH.Size = new System.Drawing.Size(117, 21);
@@ -333,18 +293,6 @@ namespace WindowsFormsApp1
             this.radTenMH.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.radTenMH.UseVisualStyleBackColor = true;
             // 
-            // panel6
-            // 
-            this.panel6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel6.Controls.Add(this.groupBox2);
-            this.panel6.Location = new System.Drawing.Point(698, 6);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(947, 603);
-            this.panel6.TabIndex = 60;
-            // 
             // groupBox2
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -353,11 +301,11 @@ namespace WindowsFormsApp1
             this.groupBox2.BackColor = System.Drawing.Color.White;
             this.groupBox2.Controls.Add(this.lvwService);
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(2, 2);
+            this.groupBox2.Location = new System.Drawing.Point(738, 116);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(943, 608);
+            this.groupBox2.Size = new System.Drawing.Size(943, 603);
             this.groupBox2.TabIndex = 49;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách mặt hàng";
@@ -369,10 +317,10 @@ namespace WindowsFormsApp1
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lvwService.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvwService.HideSelection = false;
-            this.lvwService.Location = new System.Drawing.Point(6, 44);
+            this.lvwService.Location = new System.Drawing.Point(21, 44);
             this.lvwService.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lvwService.Name = "lvwService";
-            this.lvwService.Size = new System.Drawing.Size(921, 549);
+            this.lvwService.Size = new System.Drawing.Size(900, 532);
             this.lvwService.TabIndex = 0;
             this.lvwService.UseCompatibleStateImageBehavior = false;
             // 
@@ -400,29 +348,30 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1681, 898);
+            this.Controls.Add(this.radLoaiMH);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtTimKiem);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.btnTim);
+            this.Controls.Add(this.radTenMH);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmQuanLyMatHang";
             this.Text = "Quản lý mặt hàng";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.panel6.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.RadioButton radLoaiMH;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnView;
         private System.Windows.Forms.ComboBox cboLMH;
@@ -432,7 +381,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Button btnSua;
-        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.ListView lvwService;
         private System.Windows.Forms.Label label1;
