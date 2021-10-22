@@ -47,11 +47,11 @@ namespace WindowsFormsApp1
             this.cboThang = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.cboNam = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSKH = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtTDT = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtSMH = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -145,11 +145,11 @@ namespace WindowsFormsApp1
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.textBox3);
+            this.groupBox3.Controls.Add(this.txtSMH);
             this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Controls.Add(this.textBox2);
+            this.groupBox3.Controls.Add(this.txtTDT);
             this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Controls.Add(this.textBox1);
+            this.groupBox3.Controls.Add(this.txtSKH);
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(450, 423);
@@ -211,12 +211,12 @@ namespace WindowsFormsApp1
             this.cboNam.Size = new System.Drawing.Size(195, 30);
             this.cboNam.TabIndex = 4;
             // 
-            // textBox1
+            // txtSKH
             // 
-            this.textBox1.Location = new System.Drawing.Point(152, 71);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(167, 30);
-            this.textBox1.TabIndex = 5;
+            this.txtSKH.Location = new System.Drawing.Point(152, 71);
+            this.txtSKH.Name = "txtSKH";
+            this.txtSKH.Size = new System.Drawing.Size(167, 30);
+            this.txtSKH.TabIndex = 5;
             // 
             // label4
             // 
@@ -227,12 +227,12 @@ namespace WindowsFormsApp1
             this.label4.TabIndex = 2;
             this.label4.Text = "Tổng doanh thu:";
             // 
-            // textBox2
+            // txtTDT
             // 
-            this.textBox2.Location = new System.Drawing.Point(152, 151);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(167, 30);
-            this.textBox2.TabIndex = 5;
+            this.txtTDT.Location = new System.Drawing.Point(152, 151);
+            this.txtTDT.Name = "txtTDT";
+            this.txtTDT.Size = new System.Drawing.Size(167, 30);
+            this.txtTDT.TabIndex = 5;
             // 
             // label5
             // 
@@ -243,12 +243,12 @@ namespace WindowsFormsApp1
             this.label5.TabIndex = 2;
             this.label5.Text = "Số mặt hàng:";
             // 
-            // textBox3
+            // txtSMH
             // 
-            this.textBox3.Location = new System.Drawing.Point(152, 109);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(167, 30);
-            this.textBox3.TabIndex = 5;
+            this.txtSMH.Location = new System.Drawing.Point(152, 109);
+            this.txtSMH.Name = "txtSMH";
+            this.txtSMH.Size = new System.Drawing.Size(167, 30);
+            this.txtSMH.TabIndex = 5;
             // 
             // frmThongKe
             // 
@@ -288,11 +288,11 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button btnTKDoanhThu;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtSMH;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtTDT;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSKH;
         private System.Windows.Forms.ComboBox cboNam;
         private System.Windows.Forms.ComboBox cboThang;
         private System.Windows.Forms.Label label1;
