@@ -35,10 +35,7 @@ namespace WindowsFormsApp1
 
         }
 
-        private void panel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+    
 
         private void btnChuyenGiaoDien_Click(object sender, EventArgs e)
         {
@@ -55,6 +52,56 @@ namespace WindowsFormsApp1
         private void btnTrangChu_Click(object sender, EventArgs e)
         {
             OpenFormInPanel(new frmHome());
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnQLKH_Click(object sender, EventArgs e)
+        {
+            OpenFormInPanel(new frmQuanLyKhachHang());
+        }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThongKe_Click(object sender, EventArgs e)
+        {
+            OpenFormInPanel(new frmThongKe());
+        }
+
+        private void btnDoiMatKhau_Click(object sender, EventArgs e)
+        {
+            OpenFormInPanel(new frmDoiMatKhau());
         }
     }
 }

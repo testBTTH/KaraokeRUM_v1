@@ -52,7 +52,7 @@ namespace WindowsFormsApp1
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1677, 50);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Trang chủ";
+            this.label1.Text = "Giới thiệu";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label2

@@ -124,23 +124,23 @@
   <data name="1b04dd1c1ad2d38c8ac3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1b04dd1c1ad2d38c8ac3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="folder_home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="c94f5aee5e279779ce36" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\c94f5aee5e279779ce36.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kara (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kara (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="094eb36572abbbf5e2ba" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\094eb36572abbbf5e2ba.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="gear (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gear (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Thay-the-hinh-dai-dien-tai-khoan-nguoi-dung-mac" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Thay-the-hinh-dai-dien-tai-khoan-nguoi-dung-mac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="8adccf1407dace8497cb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8adccf1407dace8497cb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2a359a959e5c57020e4d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2a359a959e5c57020e4d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kara" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kara.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,8 +166,11 @@
   <data name="3003591479ddb083e9cc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3003591479ddb083e9cc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2a359a959e5c57020e4d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2a359a959e5c57020e4d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="e8c2564b98a251fc08b3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e8c2564b98a251fc08b3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="094eb36572abbbf5e2ba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\094eb36572abbbf5e2ba.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Untitled" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,10 +208,10 @@
   <data name="gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="folder_home" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\folder_home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Thay-the-hinh-dai-dien-tai-khoan-nguoi-dung-mac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thay-the-hinh-dai-dien-tai-khoan-nguoi-dung-mac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="e8c2564b98a251fc08b3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\e8c2564b98a251fc08b3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="2472824 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2472824 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
