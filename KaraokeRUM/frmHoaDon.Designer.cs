@@ -1,5 +1,5 @@
 ﻿
-namespace WindowsFormsApp1
+namespace KaraokeRUM
 {
     partial class frmHoaDon
     {
@@ -396,8 +396,8 @@ namespace WindowsFormsApp1
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._3254f43743ff8aa1d3ee;
-            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._3254f43743ff8aa1d3ee;
+            this.pictureBox1.BackgroundImage = global::KaraokeRUM.Properties.Resources._3254f43743ff8aa1d3ee;
+            this.pictureBox1.Image = global::KaraokeRUM.Properties.Resources._3254f43743ff8aa1d3ee;
             this.pictureBox1.Location = new System.Drawing.Point(39, 74);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(206, 223);

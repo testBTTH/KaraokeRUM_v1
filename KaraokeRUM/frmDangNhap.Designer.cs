@@ -1,5 +1,5 @@
 ﻿
-namespace WindowsFormsApp1
+namespace KaraokeRUM
 {
     partial class frmDangNhap
     {
@@ -131,7 +131,7 @@ namespace WindowsFormsApp1
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._1610276918_Background_karaoke_dep;
+            this.BackgroundImage = global::KaraokeRUM.Properties.Resources._1610276918_Background_karaoke_dep;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;

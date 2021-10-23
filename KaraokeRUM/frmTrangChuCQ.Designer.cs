@@ -1,5 +1,5 @@
 ﻿
-namespace WindowsFormsApp1
+namespace KaraokeRUM
 {
     partial class frmTrangChuCQ
     {
@@ -134,7 +134,7 @@ namespace WindowsFormsApp1
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._117127892_2760642600928826_8149084358870197726_n;
+            this.pictureBox1.Image = global::KaraokeRUM.Properties.Resources._117127892_2760642600928826_8149084358870197726_n;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
@@ -150,7 +150,7 @@ namespace WindowsFormsApp1
             this.btnTrangChu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTrangChu.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTrangChu.ForeColor = System.Drawing.Color.Teal;
-            this.btnTrangChu.Image = global::WindowsFormsApp1.Properties.Resources.GioiThieu60;
+            this.btnTrangChu.Image = global::KaraokeRUM.Properties.Resources.GioiThieu60;
             this.btnTrangChu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTrangChu.Location = new System.Drawing.Point(3, 307);
             this.btnTrangChu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -168,7 +168,7 @@ namespace WindowsFormsApp1
             this.btnQLNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQLNV.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLNV.ForeColor = System.Drawing.Color.Teal;
-            this.btnQLNV.Image = global::WindowsFormsApp1.Properties.Resources.QLNV60;
+            this.btnQLNV.Image = global::KaraokeRUM.Properties.Resources.QLNV60;
             this.btnQLNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQLNV.Location = new System.Drawing.Point(3, 391);
             this.btnQLNV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -185,7 +185,7 @@ namespace WindowsFormsApp1
             this.btnQLKH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQLKH.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLKH.ForeColor = System.Drawing.Color.Teal;
-            this.btnQLKH.Image = global::WindowsFormsApp1.Properties.Resources.QLKH60;
+            this.btnQLKH.Image = global::KaraokeRUM.Properties.Resources.QLKH60;
             this.btnQLKH.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQLKH.Location = new System.Drawing.Point(3, 475);
             this.btnQLKH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -202,7 +202,7 @@ namespace WindowsFormsApp1
             this.btnChuyenGiaoDien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChuyenGiaoDien.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChuyenGiaoDien.ForeColor = System.Drawing.Color.Teal;
-            this.btnChuyenGiaoDien.Image = global::WindowsFormsApp1.Properties.Resources.GDTN60;
+            this.btnChuyenGiaoDien.Image = global::KaraokeRUM.Properties.Resources.GDTN60;
             this.btnChuyenGiaoDien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnChuyenGiaoDien.Location = new System.Drawing.Point(3, 559);
             this.btnChuyenGiaoDien.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -220,7 +220,7 @@ namespace WindowsFormsApp1
             this.btnThongKe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThongKe.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThongKe.ForeColor = System.Drawing.Color.Teal;
-            this.btnThongKe.Image = global::WindowsFormsApp1.Properties.Resources.ThongKe60;
+            this.btnThongKe.Image = global::KaraokeRUM.Properties.Resources.ThongKe60;
             this.btnThongKe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThongKe.Location = new System.Drawing.Point(3, 643);
             this.btnThongKe.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -237,7 +237,7 @@ namespace WindowsFormsApp1
             this.btnDoiMatKhau.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDoiMatKhau.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDoiMatKhau.ForeColor = System.Drawing.Color.Teal;
-            this.btnDoiMatKhau.Image = global::WindowsFormsApp1.Properties.Resources.DMK60;
+            this.btnDoiMatKhau.Image = global::KaraokeRUM.Properties.Resources.DMK60;
             this.btnDoiMatKhau.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDoiMatKhau.Location = new System.Drawing.Point(3, 727);
             this.btnDoiMatKhau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -254,7 +254,7 @@ namespace WindowsFormsApp1
             this.btnDangXuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDangXuat.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangXuat.ForeColor = System.Drawing.Color.Teal;
-            this.btnDangXuat.Image = global::WindowsFormsApp1.Properties.Resources.DangXuat60;
+            this.btnDangXuat.Image = global::KaraokeRUM.Properties.Resources.DangXuat60;
             this.btnDangXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDangXuat.Location = new System.Drawing.Point(3, 811);
             this.btnDangXuat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

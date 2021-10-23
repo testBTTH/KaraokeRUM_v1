@@ -1,5 +1,5 @@
 ﻿
-namespace WindowsFormsApp1
+namespace KaraokeRUM
 {
     partial class frmHome
     {
@@ -99,7 +99,7 @@ namespace WindowsFormsApp1
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::WindowsFormsApp1.Properties.Resources.ava_min;
+            this.pictureBox3.Image = global::KaraokeRUM.Properties.Resources.ava_min;
             this.pictureBox3.Location = new System.Drawing.Point(881, 339);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(757, 438);
@@ -109,7 +109,7 @@ namespace WindowsFormsApp1
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.kara;
+            this.pictureBox2.Image = global::KaraokeRUM.Properties.Resources.kara;
             this.pictureBox2.Location = new System.Drawing.Point(36, 339);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(757, 438);
@@ -119,8 +119,8 @@ namespace WindowsFormsApp1
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._3254f43743ff8aa1d3ee;
-            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._3254f43743ff8aa1d3ee;
+            this.pictureBox1.BackgroundImage = global::KaraokeRUM.Properties.Resources._3254f43743ff8aa1d3ee;
+            this.pictureBox1.Image = global::KaraokeRUM.Properties.Resources._3254f43743ff8aa1d3ee;
             this.pictureBox1.Location = new System.Drawing.Point(317, 98);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(206, 223);
