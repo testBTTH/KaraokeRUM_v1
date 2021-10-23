@@ -32,7 +32,7 @@ namespace KaraokeRUM
         }
         private void frmTrangChu_Load(object sender, EventArgs e)
         {
-            
+            OpenFormInPanel(new frmHome());
         }
 
         private void btnPhong_Click(object sender, EventArgs e)

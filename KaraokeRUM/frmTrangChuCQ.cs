@@ -30,12 +30,11 @@ namespace KaraokeRUM
             this.panel_workarea.Tag = fm;
             fm.Show();
         }
+
         private void frmTrangChuCQ_Load(object sender, EventArgs e)
         {
-
+            OpenFormInPanel(new frmHome());
         }
-
-    
 
         private void btnChuyenGiaoDien_Click(object sender, EventArgs e)
         {
