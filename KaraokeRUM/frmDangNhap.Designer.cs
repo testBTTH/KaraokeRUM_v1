@@ -74,7 +74,7 @@ namespace WindowsFormsApp1
             this.btnDN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnDN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDN.ForeColor = System.Drawing.Color.White;
-            this.btnDN.Location = new System.Drawing.Point(166, 204);
+            this.btnDN.Location = new System.Drawing.Point(166, 197);
             this.btnDN.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDN.Name = "btnDN";
             this.btnDN.Size = new System.Drawing.Size(286, 46);
