@@ -23,5 +23,12 @@ namespace WindowsFormsApp1
             frm.Show();
             this.Hide();
         }
+
+        private void lblLayLaiMatKhau_Click(object sender, EventArgs e)
+        {
+            frmLayLaiMatKhau frm = new frmLayLaiMatKhau();
+            frm.Show();
+            this.Hide();
+        }
     }
 }

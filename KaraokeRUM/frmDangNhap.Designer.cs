@@ -31,9 +31,9 @@ namespace WindowsFormsApp1
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.btnDN = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblLayLaiMatKhau = new System.Windows.Forms.Label();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
@@ -45,7 +45,7 @@ namespace WindowsFormsApp1
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.btnDN);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.lblLayLaiMatKhau);
             this.groupBox1.Controls.Add(this.txtUsername);
             this.groupBox1.Controls.Add(this.txtPassword);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -54,7 +54,7 @@ namespace WindowsFormsApp1
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(493, 345);
+            this.groupBox1.Size = new System.Drawing.Size(493, 315);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Đăng nhập";
@@ -69,6 +69,20 @@ namespace WindowsFormsApp1
             this.label3.Text = "Mật Khẩu:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnDN
+            // 
+            this.btnDN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnDN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDN.ForeColor = System.Drawing.Color.White;
+            this.btnDN.Location = new System.Drawing.Point(166, 204);
+            this.btnDN.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnDN.Name = "btnDN";
+            this.btnDN.Size = new System.Drawing.Size(286, 46);
+            this.btnDN.TabIndex = 2;
+            this.btnDN.Text = "Đăng Nhập";
+            this.btnDN.UseVisualStyleBackColor = false;
+            this.btnDN.Click += new System.EventHandler(this.btnDN_Click);
+            // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -79,29 +93,17 @@ namespace WindowsFormsApp1
             this.label2.Text = " Tài Khoản:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // lblLayLaiMatKhau
             // 
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(166, 264);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(327, 31);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Quên mật khẩu?";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // btnDN
-            // 
-            this.btnDN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnDN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDN.ForeColor = System.Drawing.Color.White;
-            this.btnDN.Location = new System.Drawing.Point(166, 204);
-            this.btnDN.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnDN.Name = "btnDN";
-            this.btnDN.Size = new System.Drawing.Size(286, 46);
-            this.btnDN.TabIndex = 1;
-            this.btnDN.Text = "Đăng Nhập";
-            this.btnDN.UseVisualStyleBackColor = false;
-            this.btnDN.Click += new System.EventHandler(this.btnDN_Click);
+            this.lblLayLaiMatKhau.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblLayLaiMatKhau.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLayLaiMatKhau.Location = new System.Drawing.Point(227, 263);
+            this.lblLayLaiMatKhau.Name = "lblLayLaiMatKhau";
+            this.lblLayLaiMatKhau.Size = new System.Drawing.Size(155, 31);
+            this.lblLayLaiMatKhau.TabIndex = 3;
+            this.lblLayLaiMatKhau.Text = "Quên mật khẩu?";
+            this.lblLayLaiMatKhau.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblLayLaiMatKhau.Click += new System.EventHandler(this.lblLayLaiMatKhau_Click);
             // 
             // txtUsername
             // 
@@ -122,7 +124,7 @@ namespace WindowsFormsApp1
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(286, 34);
-            this.txtPassword.TabIndex = 0;
+            this.txtPassword.TabIndex = 1;
             // 
             // frmDangNhap
             // 
@@ -134,7 +136,8 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "frmDangNhap";
-            this.Text = "Karaoke RUM";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Karaoke RUM - Đăng nhập";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -144,7 +147,7 @@ namespace WindowsFormsApp1
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblLayLaiMatKhau;
         private System.Windows.Forms.Button btnDN;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtPassword;
